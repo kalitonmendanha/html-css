@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Helvetica;
+}
+/*cabeçalho*/
+header {
+    background-image: linear-gradient(to top, black,grey);
+    color:#fff;
+    padding:50px;
+    text-align: center;
+}         
+  h2 {
+      color: black;
+      padding: 25px;
+      font-size: 32px;
+      height: auto;
+      text-align: center;
+      
+}
+   p {
+      color: black;
+      padding: 25px;
+      font-size: 20px;
+      text-align: justify;
+      text-indent: 10px;      
+}
+ /* Grid de Produtos */
+ .container {
+     background-image: linear-gradient(to left, grey,lightgrey) ;
+     min-height: 60vh;
+     padding: 10px 10px;
+     object-fit: cover;
+}
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .card {
+   width: 31%;
+   display:inline-block;
+   margin: 1% 1%;
+   padding: 15px;
+}
+ .cards{
+     display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px, 1fr));
+    gap: 20px;
+}
+ .product-image {
+   height: 200px;
+   width: 90%;
+   margin-bottom: 20px;
+   background-position: top;
+   border-radius: 15px;
+}
+
+ #img-1 {
+   background-image: url(../img/esboço1.jpg);
+}
+
+ #img-2 {
+    background-image: url(../img/esboço2.jpg)
+ }
+
+ #img-3 {
+    background-image: url(../img/esboço3.jpg)
+ }
+
+ #img-4 {
+    background-image: url(../img/esboço4.jpg)
+ }
+
+ h3 {
+     margin-bottom: 10px;
+     color: black;
+     font-size: 24px;
+     border-left: 5px solid white;
+     padding-left: 7px;
+ }
+
+ .card p {
+     margin-bottom: 10px;
+ }
+
+ .bold {
+     font-weight: bold;
+ }
+ /* footer */
+ footer {
+     background-image: linear-gradient(to top, black,grey);
+     color: #fff;
+     border-top: center;
+     padding: 80px;
+ }
+footer p{
+        color: #fff
+    }
